@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\client\\assets",
+    "\\client\\assets\\images",
+    "\\client\\auth",
+    "\\client\\post",
+    "\\server",
+    "\\server\\helpers",
+    "\\server\\models",
+    "\\server\\routes"
+  ],
+  "SelectedNode": "\\client\\user\\FindPeople.js",
+  "PreviewInSolutionExplorer": false
+}
