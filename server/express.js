@@ -27,7 +27,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(compress());
 app.use(helmet());
-app.use(cors());
+app.use(cors({
+    origin: ["https://deploy-mern-1whq.vercel.app"],
+    methods: ["POST", "GET", "PUT", "DELETE"],
+    credentials: true
+}));
 app.use('/', userRoutes);
 app.use('/', authRoutes);
 app.use('/', postRoutes);
