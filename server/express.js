@@ -38,7 +38,7 @@ app.use('/', postRoutes);
 /*app.get('/', (req, resp) => {
     resp.status(200).send(template());
 });*/
-app.get('*', (req, resp) => {
+/*app.get('*', (req, resp) => {
     const sheets = new ServerStyleSheets();
     const context = {};
     const markup = ReactDOMServer.renderToString(
@@ -59,7 +59,7 @@ app.get('*', (req, resp) => {
         css: css
     };
     resp.status(200).send(template(data));
-})
+});*/
 app.use((err, req, resp, next) => {
     if (err.name === 'UnauthorizedError') {
         resp.status(401).json({ success: false, error: err.name + ":" + err.message });
