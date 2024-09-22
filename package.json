@@ -2,7 +2,7 @@
   "name": "sample",
   "version": "1.0.0",
   "description": "codebase",
-  "main": "yes",
+  "main": "server",
   "repository": "https://github.com/vishalgusaiwal/NewRepo.git",
   "author": "vishal gusaiwal",
   "license": "no",
